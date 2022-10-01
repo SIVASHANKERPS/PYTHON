@@ -1,0 +1,10 @@
+{
+    "stud_detail":[
+        {
+            "student_name":"siva",
+            "student_age":"20",
+            "student_cllg":"Xavier's",
+            "department":"cse"
+        }
+    ]
+}
