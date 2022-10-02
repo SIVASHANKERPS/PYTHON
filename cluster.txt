@@ -1,0 +1,15 @@
+DEPLOYMENT ON AWS EKS:
+
+create a cluster
+IAM role to be created  before that must contain the following
+   a.trusted identity:AWS service
+   b.use case:EKS>EKS-cluster
+   c.policy:amazonEKSclusterpolicy
+others can be set default
+create a node group(dashboard>compute>add node group)
+IAM role to be attached must contain the following
+    a.amazonEKSworkernodepolicy
+    b.amazonEKSnipolicy
+    c.amazonEKScontainerregistryreadonly
+go with default instance type:t3.medium
+change min,max no of nodes if needed
