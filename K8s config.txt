@@ -1,0 +1,8 @@
+push images of required app onto ECR:
+ 1.create an ECR repo
+ 2.push the image to the repo
+ 3.update the deployment config with the image
+ 4 update the service config with the image
+
+ aws eks --region us-east-1 update-kubeconfig --name reverser-cluster
+ kubectl apply -f k8s/
